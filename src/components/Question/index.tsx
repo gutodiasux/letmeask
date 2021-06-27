@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import '../styles/question.scss';
+import './styles.scss';
 import cx from 'classnames';
 
 type QuestionProps = {

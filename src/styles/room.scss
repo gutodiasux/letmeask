@@ -109,3 +109,40 @@
       }
     }
 } 
+
+@media (max-width: 480px){
+  #page-room {
+    display: flex;
+    flex-direction: column;
+
+    .room-title {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        margin-bottom: 16px;
+      }
+    }
+
+    main {
+      margin: 0 16px;
+    }
+
+    header {
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        > div {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+
+    .question-list {
+      margin-bottom: 16px;
+    }
+  }
+}

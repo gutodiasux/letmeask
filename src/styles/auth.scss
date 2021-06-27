@@ -142,3 +142,31 @@
          }
     }
 }
+
+@media (max-width: 480px){
+  #page-auth {
+    display: flex;
+    flex-direction: column;
+
+    aside {
+      padding: 16px 16px;
+      justify-content: flex-start;
+      max-height: 30vh;
+      img {
+        max-width: 80px;
+      }
+
+      strong {
+        font-size: 18px;
+        margin-top: 0;
+        line-height: 24px;
+      }
+
+      p {
+        font-size: 14px;
+        margin-top: 0px;
+      }
+    }
+
+  }
+}
